@@ -10,7 +10,7 @@
 
 
 main {
-    width: 30%;
+    width: 300px;
     height: auto;
     display: flex;
     align-items: center;
@@ -74,3 +74,14 @@ h5{
    font-weight: bold;
    font-size: 20px;
 }
+
+@media screen and (max-width: 600px) {
+    main {
+       position: relative;
+       left: 60px;      
+    }
+    .search{
+        display: flex;
+        flex-direction: column;
+    }
+  }
